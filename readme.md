@@ -18,5 +18,13 @@
 ## Git Stages
 
 - [ ] tracking
+      decide which files will be tracked in this repository
 - [ ] staging
+      decide what will be commited
 - [ ] commiting
+
+## Git Log Explaination
+
+- commit hash - unique value describing our commit
+- main/master (or other branch name) - name of the branch on which the commit resides
+- HEAD - the eyes of the git staging area. The thing that pops up on your screen

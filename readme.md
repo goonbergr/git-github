@@ -65,9 +65,10 @@ Git allows you to create branches or alternate timelines. They allow you to crea
 
 - run, git branch, to check which branch you are in
 - to creat a new branch - git branch <name of branch> - then switch to branch using, git checkout <name of branch>
-  [!TIP]
-  two in one! create a new branch and checkout all at once by using: git checkout -b <name of branch>
-  for instance: it checkout -b develop, where develop is the name given to the new branch
+
+[!TIP]
+two in one! create a new branch and checkout all at once by using: git checkout -b <name of branch>
+for instance: it checkout -b develop, where develop is the name given to the new branch
 
 - will say, "switched to new branch <name of branch>"
 

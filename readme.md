@@ -32,3 +32,28 @@
 - date of commit
 - commit message
 - to get out of having no directory press 'q'
+
+## Connecting Git Repo to GitHub Repo
+
+- create repo on GitHub.com
+  - sign in
+  - green button
+  - give repo name
+  - choose visibiliti
+  - click create repository
+- copy the HTTPS or SSH
+- run, git remote add origin <pasted link>
+  - 'remote' is responsible for remote repos
+  - 'add' adds something
+  - 'origin' origin is the name given to the remote repe for reference. Common us is origin or upstream
+  - '<link>' is the end point from the GitHub repo
+- return back to syntax is a good thing!
+- to verify its linked run, git remote -v to see endpoint
+- you will see
+  - name of the endpoint
+  - the endpoint itself
+  - fetch and push locations
+- in order to push your code run, git push origin <name of branch>
+- git push origin main
+- git push origin master
+- git push origin branch1

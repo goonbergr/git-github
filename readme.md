@@ -58,3 +58,21 @@
 - git push origin master
 - git push origin branch1
 - example of untracked changes
+
+## Branches
+
+Git allows you to create branches or alternate timelines. They allow you to create an exact copy of another branch. This way you can tinker with the code without affecting the original code. Great for building features without butting heads with other developers on the project.
+
+- run, git branch, to check which branch you are in
+- to creat a new branch - git branch <name of branch> - then switch to branch using, git checkout <name of branch>
+  [!TIP]
+  two in one! create a new branch and checkout all at once by using: git checkout -b <name of branch>
+  for instance: it checkout -b develop, where develop is the name given to the new branch
+
+- will say, "switched to new branch <name of branch>"
+
+## In Other Words
+
+- Make commits on my end that generates a newer and updated position for the head to move to, while the origin/master stays behind with untracked and/or unstaged changes
+
+- Then run, git push origin master to put the changes from that local commit into the shared commit that is the GitHub
